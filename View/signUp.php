@@ -13,8 +13,8 @@
 <body>
     <?php
 
-    $username = $password = $email = $phone = $address = $city = $state = $zip = $country = $dob = $github = $linkedin = "";
-    $usernameErr = $passwordErr = $emailErr = $phoneErr = $addressErr = $cityErr = $stateErr = $zipErr = $countryErr = $dobErr = $githubErr = $linkedinErr = "";
+    $username = $password = $email = $phone = $address = $city = $state = $zip = $country = $dob = $github = $linkedin = $gender = "";
+    $usernameErr = $passwordErr = $emailErr = $phoneErr = $addressErr = $cityErr = $stateErr = $zipErr = $countryErr = $dobErr = $githubErr = $linkedinErr = $genderErr = "";
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -89,6 +89,12 @@
         } else {
             $linkedin = test_input($_POST["linkedin"]);
         }
+
+        if (empty($_POST["gender"])) {
+            $genderErr = "Gender is required";
+        } else {
+            $gender = test_input($_POST["gender"]);
+        }
     }
 
     function test_input($data)
@@ -120,6 +126,13 @@
         <label for="phone">Phone </label>
         <input type="tel" name="phone" id="phone">
         <span class="error">* <?php echo $phoneErr; ?></span>
+        <br><br>
+
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="other">Other
+        <span class="error">* <?php echo $genderErr; ?></span>
         <br><br>
 
         <label for="address">Address </label>
@@ -190,6 +203,8 @@
     echo $github;
     echo "<br>";
     echo $linkedin;
+    echo "<br>";
+    echo $gender;
     ?>
 </body>
 
