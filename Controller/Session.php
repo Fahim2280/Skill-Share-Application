@@ -6,6 +6,6 @@
       $_SESSION['userid']=$_COOKIE['userid'];
     }
     else 
-        header('Location: login.php');
+        header('Location: ../View/singin.php');
   }
 ?>

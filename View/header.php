@@ -6,6 +6,7 @@
 </head>
 
 <body>
+    
     <div class="logo-container">
         <a href="index.html"><img src="logo.png" alt="Skill-Share Logo"></a>
     </div>
@@ -23,6 +24,14 @@
             <label for="search">Search</label>
             <input type="text" name="search" id="search">
             <input type="submit" name="submit" value="Sign Up">
+        </form>
+    </div>
+    <div>
+        <form method="POST" action="../Controller/Sprofile.php">
+            <label for="username">Username:</label>
+            <input type="text" name="username" required>
+            <br><br>
+            <input type="submit" name="view_profile" value="View Profile">
         </form>
     </div>
 </body>

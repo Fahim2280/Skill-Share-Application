@@ -1,0 +1,71 @@
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading Styles */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Form Styles */
+form {
+  margin: 50px auto;
+  width: 500px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Label Styles */
+label {
+  font-weight: bold;
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+/* Radio Button Styles */
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Error Message Styles */
+.error {
+  color: #ff0000;
+  font-size: 12px;
+}
+
+/* Submit Button Styles */
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Submit Button Hover Styles */
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}

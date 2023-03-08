@@ -8,6 +8,7 @@
 
 <head>
     <title>Skill Share|Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="SingIn.css">
 </head>
 
 <body>
@@ -24,7 +25,9 @@
                 <td><span class="error">* </span></td>
             </tr>
             <tr>
-                <td><input type="submit" name="submit" value="Submit"></td>
+                <td><input type="submit" name="submit" value="Sing In"></td>
+                <td><button type="button" onclick="window.location.href='signUp.php'">Sing Up</button></td>
+
             </tr>
         </table>
     </form>
