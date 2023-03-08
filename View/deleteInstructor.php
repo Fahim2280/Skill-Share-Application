@@ -1,22 +1,13 @@
 <!DOCTYPE html>
-<html>
-<style>
-    .error {
-        color: #FF0000;
-    }
-</style>
-
 <head>
-    <title>Skill Share|Reset Password</title>
+    <title>Skill Share|Delete Instructor</title>
 </head>
-
 <body>
-
-    <form method="POST" action="">
+    <form method="POST" action="../controller/dInstructor.php">
         <table>
             <tr>
-                <td>Email:</td>
-                <td><input type="text" name="email" value=""></td>
+                <td>Username:</td>
+                <td><input type="text" name="username" value=""></td>
                 <td><span class="error">*</span></td>
             </tr>
             <tr>
@@ -25,5 +16,3 @@
         </table>
     </form>
 </body>
-
-</html>
