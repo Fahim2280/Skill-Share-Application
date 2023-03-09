@@ -1,7 +1,14 @@
+<?php
+session_start();
+if (!isset($_SESSION['email'])) {
+    header('location: ../View/SingIn.php');
+} ?>
 <!DOCTYPE html>
+
 <head>
     <title>Skill Share|Delete Instructor</title>
 </head>
+
 <body>
     <form method="POST" action="../controller/dInstructor.php">
         <table>

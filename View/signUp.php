@@ -87,7 +87,7 @@
         <br><br>
 
         <input type="submit" name="submit" value="Sign Up">
-        <button type="Singin" value="Singin">Sing In</button>
+        <td><button type="button" onclick="window.location.href='singIn.php'">Sing Up</button></td>
     </form>
 
 </body>

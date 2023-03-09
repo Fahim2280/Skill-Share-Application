@@ -12,6 +12,13 @@
 </head>
 
 <body>
+    <div>
+        <?php
+        include 'header.php';
+        ?>
+    </div>
+    <h1>Sign In</h1>
+
     <form method="POST" action="../Controller/CSingIn.php">
         <table>
             <tr>
@@ -31,6 +38,12 @@
             </tr>
         </table>
     </form>
+
+    <div>
+        <?php
+        include 'footer.php';
+        ?>
+    </div>
 
 </body>
 

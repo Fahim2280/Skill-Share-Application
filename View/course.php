@@ -1,3 +1,8 @@
+<?php
+session_start();
+if (!isset($_SESSION['email'])) {
+    header('location: ../View/SingIn.php');
+} ?>
 <!DOCTYPE html>
 <html>
 <style>

@@ -1,3 +1,8 @@
+<?php
+session_start();
+if (!isset($_SESSION['email'])) {
+    header('location: ../View/SingIn.php');
+} ?>
 <!DOCTYPE html>
 <html>
 <style>
@@ -11,7 +16,7 @@
 </head>
 
 <body>
-    <h1>Sign Up</h1>
+    <h1>Update Profile</h1>
     <p><span class="error">* required field</span></p>
     <form method="POST" action="">
         <label for="username">Username </label>
@@ -81,7 +86,7 @@
         <span class="error">*</span>
         <br><br>
 
-        <input type="submit" name="submit" value="Sign Up">
+        <input type="submit" name="submit" value="Update">
     </form>
 </body>
 

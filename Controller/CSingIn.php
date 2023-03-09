@@ -1,7 +1,7 @@
 <?php
 session_start();
 $email = $_POST['email'];
-$passwordword = $_POST['passwordword'];
+$passwordword = $_POST['password'];
 
 $admin_file = fopen("../Model/admin.txt", "r");
 while (($line = fgets($admin_file)) !== false) {
@@ -10,8 +10,7 @@ while (($line = fgets($admin_file)) !== false) {
         setcookie('status', 'true', time() + 3600, '/');
         $_SESSION["email"] = $_POST["email"];
         $_SESSION["password"] = $_POST["password"];
-        header("Location: ../View/admin.php");
-        echo "admin";
+        header("Location: ../View/AdminDashboard.php");
         exit();
     }
 }
@@ -24,8 +23,7 @@ while (($line = fgets($student_file)) !== false) {
         setcookie('status', 'true', time() + 3600, '/');
         $_SESSION["email"] = $_POST["email"];
         $_SESSION["password"] = $_POST["password"];
-        header("Location: ../View/admin.php");
-        echo "student";
+        header("Location: ../View/StudentDashboard.php");
         exit();
     } 
 }
@@ -44,4 +42,6 @@ while (($line = fgets($teacher_file)) !== false) {
     } 
 }
 fclose($teacher_file);
+
+echo "Invalid Email or Password";
 ?>

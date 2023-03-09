@@ -1,0 +1,70 @@
+header {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+}
+
+header .navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+}
+
+header .navbar-toggler-icon {
+  background-color: #222;
+}
+
+header .nav-item {
+  margin-right: 20px;
+}
+
+header .nav-item:last-child {
+  margin-right: 0;
+}
+
+header .nav-link {
+  color: #222;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+header .nav-link:hover {
+  color: #f00;
+}
+
+header .form-control {
+  border-radius: 20px;
+  border-color: #222;
+  color: #222;
+  margin-right: 10px;
+}
+
+header .btn-outline-success {
+  border-radius: 20px;
+  border-color: #222;
+  color: #222;
+}
+
+@media (max-width: 991px) {
+  header .navbar-nav {
+    margin-top: 20px;
+  }
+
+  header .nav-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  header .nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  header .navbar-toggler {
+    margin-top: 10px;
+  }
+}

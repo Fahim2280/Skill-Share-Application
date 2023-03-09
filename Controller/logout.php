@@ -4,5 +4,5 @@ session_destroy();
 ?>
 <?php 
 echo "<hr>";
-header('location:login.php');
+header('location: ../View/SingIn.php');
 ?>
