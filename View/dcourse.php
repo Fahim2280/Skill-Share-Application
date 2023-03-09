@@ -13,15 +13,16 @@ if (!isset($_SESSION['email'])) {
 
 <head>
     <title>Skill Share|delete Courese</title>
+    <link rel="stylesheet" type="text/css" href="D.css">
 </head>
 
 <body>
     <h1>Delete Course</h1>
-    <p><span class="error">* required field</span></p>
     <form method="POST" action="../controller/dcourse.php">
         <label for="cpurseID">Course ID </label>
-        <input type="text" name="courseID" id="courseID">
         <span class="error">* </span>
+        <input type="text" name="courseID" id="courseID">
+
         <br><br>
         <input type="submit" name="delete" value="Delete">
     </form>

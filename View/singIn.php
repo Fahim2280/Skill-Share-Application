@@ -12,11 +12,6 @@
 </head>
 
 <body>
-    <div>
-        <?php
-        include 'header.php';
-        ?>
-    </div>
     <h1>Sign In</h1>
 
     <form method="POST" action="../Controller/CSingIn.php">

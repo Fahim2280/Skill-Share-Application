@@ -13,6 +13,7 @@ if (!isset($_SESSION['email'])) {
 
 <head>
     <title>Skill Share|Update Profile</title>
+    <link rel="stylesheet" type="text/css" href="U.css">
 </head>
 
 <body>

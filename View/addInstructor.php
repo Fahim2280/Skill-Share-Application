@@ -9,11 +9,11 @@ if (!isset($_SESSION['email'])) {
 
 <head>
     <title>Skill Share|Add Instructor</title>
-    <link rel="stylesheet" type="text/css" href="addInsturctor.css">
+    <link rel="stylesheet" type="text/css" href="U.css">
 </head>
 
 <body>
-    <h1>Sign Up</h1>
+    <h1>Add Instructor</h1>
     <form method="POST" action="../controller/CInstructor.php">
 
         <label for="username">Username </label>

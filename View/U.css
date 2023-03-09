@@ -1,0 +1,45 @@
+/* Set background color for body element */
+body {
+  background-color: #f1f1f1;
+}
+
+/* Set font style and color for headings */
+h1 {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Set font style and color for labels and input fields */
+label, input {
+  font-family: Arial, sans-serif;
+  color: #555;
+}
+
+/* Add padding and margin to input fields */
+input {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Add margin to error messages */
+.error {
+  margin: 8px;
+  color: red;
+}
+
+/* Add margin and style to submit button */
+input[type="submit"] {
+  margin: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Change button background color when hovered */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}

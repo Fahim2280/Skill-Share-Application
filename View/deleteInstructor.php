@@ -7,6 +7,7 @@ if (!isset($_SESSION['email'])) {
 
 <head>
     <title>Skill Share|Delete Instructor</title>
+    <link rel="stylesheet" type="text/css" href="D.css">
 </head>
 
 <body>

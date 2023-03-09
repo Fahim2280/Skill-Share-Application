@@ -1,3 +1,8 @@
+<?php
+session_start();
+if (!isset($_SESSION['email'])) {
+    header('location: ../View/SingIn.php');
+} ?>
 <!DOCTYPE html>
 <html>
 
@@ -13,8 +18,6 @@
         ?>
     </div>
     <?php
-    session_start();
-
     // Read course information from the text file
     $file = fopen("./Model/Course.txt", "r") or die("Unable to open file!");
     while (!feof($file)) {

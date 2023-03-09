@@ -1,52 +1,54 @@
+/* Set a background color for the body */
 body {
-  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
   padding: 20px;
-  background-color: #f7f7f7;
-  border: 1px solid #ddd;
-  border-radius: 5px;
 }
 
+/* Style the links in the header */
+header a {
+  color: #fff;
+  margin-right: 20px;
+}
+
+/* Center the container */
+.container {
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+}
+
+/* Style the welcome message */
 h1 {
   font-size: 36px;
-  color: #333;
-  margin-top: 0;
+  margin-bottom: 10px;
 }
 
-a {
+/* Style the paragraphs */
+p {
+  margin: 10px 0;
+}
+
+/* Style the links in the container */
+.container a {
   display: inline-block;
-  padding: 8px 16px;
-  background-color: #0077cc;
+  background-color: #333;
   color: #fff;
+  padding: 10px;
+  margin: 10px;
   text-decoration: none;
   border-radius: 5px;
-  margin-right: 10px;
 }
 
-a:hover {
-  background-color: #005ea6;
-}
-
-p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin: 0;
-}
-
-strong {
-  font-weight: bold;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 10px;
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }

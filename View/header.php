@@ -19,8 +19,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Courses</a>
                     </li>
+                    
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="View/StudentDashboard.php">Profile</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About Us</a>
