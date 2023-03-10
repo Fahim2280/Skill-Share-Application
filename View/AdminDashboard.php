@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 if (!isset($_SESSION['email'])) {
     header('location: ../View/SingIn.php');
 }
@@ -46,6 +47,7 @@ if ($handle) {
         if ($user_data[3] == $_SESSION['email']) {
         ?>
             <h1>Welcome, <?php echo $name = $user_data[1]; ?></h1>
+            <?php echo $_SESSION['admin']; ?>
             <p><strong>Email:</strong> <?php echo $_SESSION['email']; ?></p>
             <p><strong>Phone:</strong> <?php echo $user_data[4]; ?></p>
             <p><strong>Address:</strong> <?php echo $user_data[5] ?></p>

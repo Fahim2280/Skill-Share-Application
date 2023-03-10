@@ -22,7 +22,7 @@ while (($line = fgets($student_file)) !== false) {
     if ($data[3] == $email && $data[2] == $passwordword) {
         setcookie('status', 'true', time() + 3600, '/');
         $_SESSION["email"] = $_POST["email"];
-        $_SESSION["password"] = $_POST["password"];
+        $_SESSION["password"] = $_POST["password"]; 
         header("Location: ../View/StudentDashboard.php");
         exit();
     } 
@@ -44,4 +44,3 @@ while (($line = fgets($teacher_file)) !== false) {
 fclose($teacher_file);
 
 echo "Invalid Email or Password";
-?>
