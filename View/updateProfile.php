@@ -19,7 +19,7 @@ if (!isset($_SESSION['email'])) {
 <body>
     <h1>Update Profile</h1>
     <p><span class="error">* required field</span></p>
-    <form method="POST" action="">
+    <form method="POST" action="../Controller/CUprofile.php">
         <label for="username">Username </label>
         <input type="text" name="username" id="username">
         <span class="error">*</span>

@@ -34,10 +34,12 @@ if ($handle) {
 <head>
     <title>Admin Dashboard</title>
     <link rel="stylesheet" type="text/css" href="SD.css">
+
+
 </head>
 
 <body>
-    
+
     <div>
         <?php include 'Header.php'; ?>
     </div>

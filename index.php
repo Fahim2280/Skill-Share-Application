@@ -9,6 +9,8 @@ if (!isset($_SESSION['email'])) {
 <head>
     <title>Skill Share| Home</title>
     <link rel="stylesheet" type="text/css" href="./View/card.css">
+    <link rel="stylesheet" type="text/css" href="./View/header.css">
+    <link rel="stylesheet" type="text/css" href="./View/footer.css">
 </head>
 
 <body>

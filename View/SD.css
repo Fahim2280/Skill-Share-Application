@@ -1,54 +1,42 @@
-/* Set a background color for the body */
-body {
-  background-color: #f2f2f2;
-}
-
-/* Style the header */
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-}
-
-/* Style the links in the header */
-header a {
-  color: #fff;
-  margin-right: 20px;
-}
-
-/* Center the container */
 .container {
-  margin: auto;
-  width: 80%;
+  background-color: #b3f1bd;
+  border-radius: 5px;
   padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Style the welcome message */
-h1 {
-  font-size: 36px;
+.container h1 {
+  font-size: 24px;
   margin-bottom: 10px;
 }
 
-/* Style the paragraphs */
-p {
+.container p {
   margin: 10px 0;
 }
 
-/* Style the links in the container */
 .container a {
   display: inline-block;
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  margin: 10px;
-  text-decoration: none;
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #ecf4ee;
   border-radius: 5px;
+  text-decoration: none;
 }
 
-/* Style the footer */
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+.container a:hover {
+  background-color: #0069d9;
+}
+
+.container ul {
+  margin: 10px 0;
+}
+
+.container ul li {
+  margin: 5px 0;
+}
+
+.container strong {
+  font-weight: bold;
 }

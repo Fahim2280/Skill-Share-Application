@@ -19,15 +19,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Courses</a>
                     </li>
-                    
+
                     <li class="nav-item">
                         <a class="nav-link" href="View/StudentDashboard.php">Profile</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="View/AboutUs.php">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="View/Contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="View/singIn.php">Sing In</a>
